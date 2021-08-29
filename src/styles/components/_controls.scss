@@ -1,0 +1,23 @@
+.controls {
+    
+    &__time {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+
+    &__buttons {
+        display: flex;
+        justify-content: center;
+        margin: 0 -5px;
+
+        button {
+            margin: 0 5px;
+            background-color: #fff;
+            border: 0;
+            border-radius: 5px;
+            flex: 0 0 30px;
+            height: 30px;
+        }
+    }
+}

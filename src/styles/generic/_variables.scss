@@ -3,8 +3,7 @@ $font-size             				: 12px;
 $font-weight-base           		: 400;
 $line-height-base           		: 1.5;
 
-$ff-sans-serif              		: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$ff-serif                   		: Georgia, "Times New Roman", Times, serif;
+$ff-roboto                   		: 'Roboto', sans-serif;
 
 $t-duration                 		: 0.4s;
 
@@ -33,9 +32,9 @@ $breakpoints: (
 	large-desktop: 1399px
 );
 
-$h1: 28px;
-$h2: 24px;
-$h3: 20px;
+$h1: 36px;
+$h2: 30px;
+$h3: 28px;
 $h4: 18px;
 $h5: 16px;
 $h6: 14px;

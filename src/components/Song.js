@@ -1,18 +1,15 @@
 import React from 'react';
 
-const Song = ({curentSong}) => {
-    const {name, cover, artist, autio} = {...curentSong};
+const Song = ({currentSong}) => {
+    const {name, cover, artist, audio} = {...currentSong};
     return (
         <div className="song">
-            {console.log(curentSong)}
-            <div className="song__image">
-                <img src={cover} alt="" width="200" />
-            </div>
+            <div className="song__image" style={{ backgroundImage: `url("${cover}")`}}></div>
 
             <div className="song__content">
-                <h3>{name}</h3>
+                <h2>{name}</h2>
 
-                <h4>{artist}</h4>
+                <h3>{artist}</h3>
             </div>
         </div>
     );

@@ -5,6 +5,7 @@
 body {
 	min-width: 320px;
 	background: #fff;
+	font-family: $ff-roboto;
 }
 
 a {
@@ -23,11 +24,13 @@ a {
 .h1,
 h1 {
     font-size: $h1;
+	margin-bottom: 20px;
 }
 
 .h2,
 h2 {
     font-size: $h2;
+	margin-bottom: 10px;
 }
 
 .h3,
@@ -38,6 +41,7 @@ h3 {
 .h4,
 h4 {
     font-size: $h4;
+	margin-bottom: 20px;
 }
 
 .h5,
